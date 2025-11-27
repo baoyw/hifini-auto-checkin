@@ -3,8 +3,8 @@ name: HIFITI-Auto-Checkin
 on:
   workflow_dispatch:
   schedule:
-    # UTC+8 8:35
-    - cron: "40 23 * * *"
+    # UTC
+    - cron: "21 8 * * *"
 
 jobs:
   checkin:
